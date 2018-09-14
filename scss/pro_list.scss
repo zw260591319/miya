@@ -1,0 +1,280 @@
+.screening {
+    // padding: 0 14px;
+    background: #fff;
+    color: #666;
+    width: 1080px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+.screening .selector {
+    line-height: 24px;
+    overflow: hidden;
+    padding: 8px 0;
+    position: relative;
+    border-bottom: 1px dashed #ececec;
+    height: 24px;
+}
+
+.screening .selector .key {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    width: 73px;
+    padding-right: 14px;
+    text-align: right;
+    color: #999;
+}
+
+.screening .selector .contenter {
+    float: left;
+    width: 918px;
+    height: 24px;
+    line-height: 24px;
+    padding-right: 60px;
+    overflow: hidden;
+}
+
+.screening .selector .contenter .smore {
+    position: absolute;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    right: 0;
+    cursor: pointer;
+    display: none;
+}
+
+.screening .selector .contenter .kcon {
+    overflow: hidden;
+    height: 48px;
+}
+
+.screening .selector .contenter .k0 a {
+    width: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.screening .selector .contenter .kcon a {
+    float: left;
+    margin-right: 5px;
+    padding: 0 20px 0 10px;
+    color: #222;
+}
+
+// 人气销量
+.bmtitle {
+    height: 44px;
+    border: 1px solid #ededed;
+    padding: 0 19px 0 0;
+    line-height: 33px;
+    font-size: 14px;
+    background: #fff;
+    width: 1081px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+.r {
+    float: right;
+    display: inline;
+}
+
+.pink {
+    color: #f450a2;
+}
+
+.l {
+    float: left;
+    display: inline;
+}
+
+.bmtitle .l span.current,
+.bmtitle .l span.listhover {
+    border: none;
+    border-right: 1px solid #ededed;
+    background: #fff;
+    color: #ff3893;
+}
+
+.bmtitle .l label,
+.bmtitle .l span {
+    height: 46px;
+    line-height: 46px;
+    border: none;
+    border-right: 1px solid #ededed;
+    background: #fff;
+    margin-right: 0;
+    float: left;
+    width: 77px;
+    text-align: center;
+}
+
+.bmtitle .l .priceip {
+    width: 146px;
+    display: inline-block;
+}
+
+.bmttitle .l .priceip .input-items {
+    height: 44px;
+}
+
+.bmtitle .l .priceip li {
+    float: left;
+}
+
+.inputs-price {
+    padding: 0 5px;
+    height: 39px;
+    width: 146px;
+}
+
+.inner {
+    display: inline-block;
+}
+
+.input-items li {
+    float: left;
+    margin-right: 5px;
+    width: 54px;
+    height: 44px;
+}
+
+.input-items .sep {
+    width: 5px;
+}
+
+.input-item input {
+    width: 42px;
+    height: 21px;
+    padding: 0 4px;
+    border: 1px solid #B1B1B1;
+}
+
+.input-item {
+    width: 54px;
+}
+
+.input-submit button {
+    cursor: pointer;
+    background-color: #F84D9C;
+    color: #fff;
+    height: 23px;
+    width: 50px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: none;
+    margin-left: 5px;
+}
+
+.bmtitle .l label {
+    border: none;
+}
+
+.bmtitle .l label em {
+    padding: 1px 25px 7px 25px;
+    width: 93px;
+    display: inline-block;
+}
+
+.bmtitle .l label input {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+// 瀑布流
+.jso {
+    width: 1100px;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.jso1 {
+    width: 1100px;
+    height: auto;
+}
+
+.jso1 li {
+    box-sizing: border-box;
+    background: #fff;
+    float: left;
+    width: 267px;
+    height: 367px;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    margin: 0 10px 14px 0;
+}
+
+.jso1 li:hover {
+    border: 1px solid #fa4b9b;
+}
+
+.jso1 li:nth-child(4),
+.jso1 li:nth-child(8),
+.jso1 li:nth-child(12),
+.jso1 li:nth-child(16) {
+    margin-right: 0;
+}
+
+.jso1 li h1 {
+    width: 267px;
+    height: 267px;
+}
+
+.jso1 li h1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.jso1 li .wall_1 {
+    width: 246px;
+    height: 24px;
+    color: #f450a2;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 20px 0 0 10px;
+    line-height: 24px;
+    display: inline-block;
+}
+
+.jso1 li .wall_2 {
+    text-decoration: line-through;
+    float: right;
+    line-height: 24px;
+    margin: -24px 0 0 10px;
+    color: #888;
+    display: inline-block;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.jso1 li .wall_3 {
+    width: 247px;
+    height: 22px;
+    line-height: 22px;
+    margin: 8px 0 0;
+    padding: 0;
+    font-size: 14px;
+    color: #888;
+    font-family: Tahoma, Geneva, sans-serif;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.jso1 li .tlt1 {
+    color: #fff;
+    background: #fa4b9b;
+    padding: 0 2px 2px 2px;
+    margin: 0 7px 0 10px;
+}
+
+.jso1 li .tlt2 {
+    color: #fa4b9b;
+    padding: 0 2px 2px 10px;
+    margin-right: 7px;
+}
